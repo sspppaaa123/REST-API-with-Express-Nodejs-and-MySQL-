@@ -1,0 +1,12 @@
+create database db;
+
+use db;
+
+create table students(name varchar(20), rollno int, percentage int, dob varchar(20));
+
+insert into students values('Arun Jay' , 100 , 67 , '25-03-1999');
+
+insert into students values('Raj Tilak' , 200 , 89 , '03-07-1998');
+
+insert into students values('Priyanka Sharma' , 300 , 92 , '15-11-1998');
+
